@@ -15,19 +15,14 @@
 				OnCommandButtonInitialize="ASPxCardView1_CommandButtonInitialize" ClientInstanceName="card" 
 				OnCardInserting="ASPxCardView1_CardInserting" OnCardUpdating="ASPxCardView1_CardUpdating" OnCardDeleting="ASPxCardView1_CardDeleting">
 				<Columns>
-					<dx:CardViewTextColumn FieldName="ID" VisibleIndex="0" ReadOnly="true">						
-					</dx:CardViewTextColumn>
-					<dx:CardViewTextColumn FieldName="Data" VisibleIndex="1">
-					</dx:CardViewTextColumn>
+					<dx:CardViewTextColumn FieldName="ID" ReadOnly="true" />
+					<dx:CardViewTextColumn FieldName="Data" />
 				</Columns>
 				<CardLayoutProperties>
 					<Items>
-						<dx:CardViewCommandLayoutItem HorizontalAlign="Right" ShowEditButton="True" ShowDeleteButton="true" ShowNewButton="true">
-						</dx:CardViewCommandLayoutItem>						
-						<dx:CardViewColumnLayoutItem ColumnName="Data">
-						</dx:CardViewColumnLayoutItem>
-						<dx:EditModeCommandLayoutItem HorizontalAlign="Right">
-						</dx:EditModeCommandLayoutItem>
+						<dx:CardViewCommandLayoutItem HorizontalAlign="Right" ShowEditButton="True" ShowDeleteButton="true" ShowNewButton="true" />						
+						<dx:CardViewColumnLayoutItem ColumnName="Data" />
+						<dx:EditModeCommandLayoutItem HorizontalAlign="Right" />
 					</Items>
 				</CardLayoutProperties>
 			</dx:ASPxCardView>
