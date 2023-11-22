@@ -8,7 +8,6 @@ public static class CardViewDataHelper {
 	public static DataTable Data {
 		get {
 			if(HttpContext.Current.Session["data"] == null) {
-
 				var table = new DataTable();
 				table.Columns.Add("ID", typeof(int));
 				table.Columns.Add("Data", typeof(string));
@@ -18,7 +17,6 @@ public static class CardViewDataHelper {
 				}
 				HttpContext.Current.Session["data"] = table;
 			}
-
 			return (DataTable)HttpContext.Current.Session["data"];
 		}
 	}
