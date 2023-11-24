@@ -8,7 +8,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/t338444/)**
 <!-- run online end -->
 
-This example demonstrates how to use [ASPxCardView.CommandButtonInitialize](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxCardView.CommandButtonInitialize) event to customize command buttons, for instance, disable buttons in odd cards.
+This example demonstrates how to use the [ASPxCardView.CommandButtonInitialize](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxCardView.CommandButtonInitialize) event to customize command buttons (for instance, disable buttons in odd cards).
 
 ```csharp
 protected void ASPxCardView1_CommandButtonInitialize(object sender, ASPxCardViewCommandButtonEventArgs e) {
