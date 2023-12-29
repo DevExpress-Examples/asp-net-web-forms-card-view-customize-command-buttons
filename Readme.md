@@ -5,9 +5,6 @@
 <!-- default badges end -->
 
 # Card View for ASP.NET Web Forms - How to customize command buttons in individual cards
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128530150/)**
-<!-- run online end -->
 
 This example demonstrates how to use the [ASPxCardView.CommandButtonInitialize](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxCardView.CommandButtonInitialize) event to customize command buttons (for instance, disable buttons in odd cards).
 
