@@ -17,7 +17,7 @@ Public Module CardViewDataHelper
 				Next i
 				HttpContext.Current.Session("data") = table
 			End If
-			Return CType(HttpContext.Current.Session("data"), DataTable)
+			Return DirectCast(HttpContext.Current.Session("data"), DataTable)
 		End Get
 	End Property
 	Public Sub InsertCard(ByVal sender As Object, ByVal e As DevExpress.Web.Data.ASPxDataInsertingEventArgs)
