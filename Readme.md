@@ -29,7 +29,7 @@ protected void ASPxCardView1_CommandButtonInitialize(object sender, ASPxCardView
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 * [CardViewDataHelper.cs](./CS/App_Code/CardViewDataHelper.cs) (VB: [CardViewDataHelper.vb](./VB/App_Code/CardViewDataHelper.vb))
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-card-view-customize-command-buttons&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-card-view-customize-command-buttons&~~~was_helpful=no)
 
